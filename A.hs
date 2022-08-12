@@ -7,7 +7,7 @@ import Prelude
 
 primes :: Int -> [Int]
 primes n = [ i | i <- [1..n] , i > 1 && not (any ((== 0) . (i `mod`)) [2 .. i - 1]) ]
--- Number i is prine if it is greater than 1 and not any remained is 0 with numbers from 2 to i-1
+-- Number i is prine if it is greater than 1 and not any remainder is 0 with numbers from 2 to i-1
 
 
 -- Function 2: Encrypt text using Caesar’s cipher
