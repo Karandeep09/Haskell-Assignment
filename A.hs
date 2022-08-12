@@ -2,8 +2,6 @@
 module A where
 
 import Prelude
-import Data.ByteString (elemIndex)
-import Data.Maybe (fromMaybe)
 
 -- Function 1: Return a list of all prime numbers up to a given limit:
 
